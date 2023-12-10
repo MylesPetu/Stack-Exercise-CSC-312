@@ -99,7 +99,7 @@ private:
         }
     }
 
-public:
+public: 
     InfixToPostfix() {
         precedenceMap['+'] = 1;
         precedenceMap['-'] = 1;
